@@ -1,0 +1,20 @@
+HOME:C:/Users/Eric/AppData/Roaming/SPB_Data
+Server is running @ http://0.0.0.0:50723 at time : Mon Jan 08 2024 23:16:22 GMT-0500 (Eastern Standard Time)
+[INFO][2024:01:08-23:16:23:104] - Number of files added:47
+[INFO][2024:01:08-23:16:23:289] - Number of files deleted:0
+START SUCCESS
+[INFO][2024:01:08-23:16:23:312] - Home:C:\Users\Eric\AppData\Roaming\SPB_Data
+[INFO][2024:01:08-23:16:23:313] - UserName:
+[INFO][2024:01:08-23:16:23:318] - Server is running @ http://0.0.0.0:50723 at time : Mon Jan 08 2024 23:16:22 GMT-0500 (Eastern Standard Time)
+[INFO][2024:01:08-23:16:23:326] - Port:50723 Cloud Server - https://pcb.cadence.com
+[INFO][2024:01:08-23:16:23:332] - Logging State: OFF
+{
+  statusCode: 401,
+  status: 'ERROR',
+  message: 'JSON Web Token is empty. Try to log in again.'
+}
+{
+  statusCode: 401,
+  status: 'ERROR',
+  message: 'JSON Web Token is empty. Try to log in again.'
+}

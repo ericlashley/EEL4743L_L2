@@ -1,0 +1,7 @@
+[INFO][2024:01:22-11:1:27:530] - Number of files added:0
+[INFO][2024:01:22-11:1:27:531] - Number of files deleted:0
+[INFO][2024:01:22-11:1:27:565] - Home:C:\Users\Eric\AppData\Roaming\SPB_Data
+[INFO][2024:01:22-11:1:27:566] - UserName:
+[INFO][2024:01:22-11:1:27:572] - Server is running @ http://0.0.0.0:62822 at time : Mon Jan 22 2024 11:01:27 GMT-0500 (Eastern Standard Time)
+[INFO][2024:01:22-11:1:27:577] - Port:62822 Cloud Server - https://pcb.cadence.com
+[INFO][2024:01:22-11:1:27:581] - Logging State: OFF
