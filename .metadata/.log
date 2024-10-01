@@ -1,0 +1,1026 @@
+!SESSION 2024-09-17 00:15:09.169 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @user.home/Documents/MCUXpressoIDE_11.10.0_3148/workspace
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2024-09-17 00:15:18.576
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2024-09-17 00:16:30.824
+!MESSAGE The device 'LPC55S69' (version='1.0.0') from SDK 'SDK_2.x_LPCXpresso55S69' (version='2.16.000', build='847 2024-07-12') will be installed.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-17 00:17:40.422
+!MESSAGE Indexed 'lpcxpresso55s69_hello_world' (21 sources, 40 headers) in 2.33 sec: 6,005 declarations; 16,310 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2024-09-24 09:24:30.182 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-24 09:29:30.995
+!MESSAGE Indexed 'LPC55S69_Project' (26 sources, 48 headers) in 2.3 sec: 7,305 declarations; 21,167 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-24 09:33:08.674
+!MESSAGE Indexed 'LPC55S69_Project_L3' (26 sources, 35 headers) in 1.25 sec: 6,142 declarations; 15,301 references; 28 unresolved inclusions; 59 syntax errors; 4,072 unresolved names (16%)
+
+!ENTRY com.crt.log 1 0 2024-09-24 09:52:04.757
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 09:52:04.764
+!MESSAGE RedlinkServer telnet session connected on port 3025->63372 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-09-24 09:52:20.477
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Eric\Documents\MCUXpressoIDE_11.10.0_3148\workspace\LPC55S69_Project_L3\Debug\LPC55S69_Project_L3.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunchDelegate.launch(LinkServerGdbLaunchDelegate.java:156)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-09-24 09:52:20.478
+!MESSAGE C:\Users\Eric\Documents\MCUXpressoIDE_11.10.0_3148\workspace\LPC55S69_Project_L3\Debug\LPC55S69_Project_L3.axf not found
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Eric\Documents\MCUXpressoIDE_11.10.0_3148\workspace\LPC55S69_Project_L3\Debug\LPC55S69_Project_L3.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunchDelegate.launch(LinkServerGdbLaunchDelegate.java:156)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.crt.log 1 0 2024-09-24 09:55:51.551
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=51336, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-09-24 09:55:54.303
+!MESSAGE Telnet session connected on port 3330->51349 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2024-09-24 09:56:32.397
+!MESSAGE There is already a running debug session for the launch configuration 'LPC55S69_Project_L3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2024-09-24 09:56:46.223
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 09:56:47.240
+!MESSAGE RedlinkServer telnet session connected on port 3025->51351 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 09:56:49.377
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=51352, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-09-24 09:56:52.102
+!MESSAGE Telnet session connected on port 3330->51365 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 09:59:59.899
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@48e59fdd): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-09-24 09:59:59.899
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:00:00.379
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:00:00.379
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:00:00.379
+!MESSAGE Wire ACK Fault in DAP access
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:00:00.379
+!MESSAGE Debugging context: LPC55S69_Project_L3 LinkServer Debug
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:00:04.354
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:00:04.354
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:00:04.354
+!MESSAGE Wire ACK Fault in DAP access
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:00:04.354
+!MESSAGE Debugging context: LPC55S69_Project_L3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:00:05.707
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@16111e0e): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-09-24 10:00:05.708
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:00:06.484
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@7fac5104): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2024-09-24 10:00:06.484
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:00:06.768
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:00:07.774
+!MESSAGE RedlinkServer telnet session connected on port 3025->51371 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:06:36.792
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:06:37.799
+!MESSAGE RedlinkServer telnet session connected on port 3025->51403 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:06:39.957
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=51405, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-09-24 10:06:42.665
+!MESSAGE Telnet session connected on port 3330->51418 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:07:11.450
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@31cca496): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-09-24 10:07:11.450
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:07:11.951
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:07:11.951
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:07:11.951
+!MESSAGE Wire ACK Fault in DAP access
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:07:11.951
+!MESSAGE Debugging context: LPC55S69_Project_L3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:07:14.661
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@72b0a279): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-09-24 10:07:14.661
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:07:15.290
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@7652bd32): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2024-09-24 10:07:15.290
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:07:15.602
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:07:16.608
+!MESSAGE RedlinkServer telnet session connected on port 3025->51420 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:08:55.081
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:08:56.088
+!MESSAGE RedlinkServer telnet session connected on port 3025->51426 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:08:58.198
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=51427, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-09-24 10:09:00.874
+!MESSAGE Telnet session connected on port 3330->51440 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:09:37.865
+!MESSAGE Request for monitor: 'CountingRequestMonitor: Status ERROR: org.eclipse.cdt.dsf code=10004  children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-09-24 10:09:37.865
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:09:38.116
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:09:38.116
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:09:38.116
+!MESSAGE Wire ACK Fault in DAP access
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:09:38.116
+!MESSAGE Debugging context: LPC55S69_Project_L3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:09:39.462
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@31e8ab66): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-09-24 10:09:39.462
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.crt.log 4 -1 2024-09-24 10:09:40.037
+!MESSAGE Write failed: 
+
+!STACK 0
+java.lang.Exception: java.io.IOException: Write failed: 
+
+	at com.crt.utils.general.Reporter.log(Reporter.java:592)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:201)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.lambda$16(MCXTelnetService.java:689)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.handleDebugEvents(MCXTelnetService.java:689)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1265)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1299)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Write failed: 
+
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.writeToServer(MCXTelnetService.java:574)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:199)
+	... 8 more
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:09:40.116
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@75e9707f): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2024-09-24 10:09:40.116
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:09:40.425
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:09:41.432
+!MESSAGE RedlinkServer telnet session connected on port 3025->51442 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:11:37.991
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:11:38.997
+!MESSAGE RedlinkServer telnet session connected on port 3025->51457 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:11:41.080
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=51458, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-09-24 10:11:43.623
+!MESSAGE Telnet session connected on port 3330->51470 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:12:04.032
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@6a4ee604): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-09-24 10:12:04.032
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:12:04.445
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:12:04.445
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:12:04.445
+!MESSAGE Wire ACK Fault in DAP access
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:12:04.445
+!MESSAGE Debugging context: LPC55S69_Project_L3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:12:06.615
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@57c0364a): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-09-24 10:12:06.615
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.crt.log 4 -1 2024-09-24 10:12:07.145
+!MESSAGE Write failed: 
+
+!STACK 0
+java.lang.Exception: java.io.IOException: Write failed: 
+
+	at com.crt.utils.general.Reporter.log(Reporter.java:592)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:201)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.lambda$16(MCXTelnetService.java:689)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.handleDebugEvents(MCXTelnetService.java:689)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1265)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1299)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Write failed: 
+
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.writeToServer(MCXTelnetService.java:574)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:199)
+	... 8 more
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-09-24 10:12:07.208
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@23f8b6cd): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2024-09-24 10:12:07.208
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:12:07.524
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:12:08.533
+!MESSAGE RedlinkServer telnet session connected on port 3025->51472 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-09-24 10:16:24.548
+!MESSAGE Overwriting file '/LPC55S69_Project_L3/board/clock_config.h' by 'boards/lpcxpresso55s69/project_template/clock_config.h'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-09-24 10:16:25.967
+!MESSAGE Overwriting file '/LPC55S69_Project_L3/board/pin_mux.h' by 'boards/lpcxpresso55s69/project_template/pin_mux.h'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-09-24 10:16:26.815
+!MESSAGE Overwriting file '/LPC55S69_Project_L3/board/peripherals.h' by 'boards/lpcxpresso55s69/project_template/peripherals.h'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-09-24 10:16:27.318
+!MESSAGE Overwriting file '/LPC55S69_Project_L3/board/clock_config.c' by 'boards/lpcxpresso55s69/project_template/clock_config.c'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-09-24 10:16:27.752
+!MESSAGE Overwriting file '/LPC55S69_Project_L3/board/pin_mux.c' by 'boards/lpcxpresso55s69/project_template/pin_mux.c'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-09-24 10:16:28.203
+!MESSAGE Overwriting file '/LPC55S69_Project_L3/board/peripherals.c' by 'boards/lpcxpresso55s69/project_template/peripherals.c'
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:19:02.994
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:19:04.002
+!MESSAGE RedlinkServer telnet session connected on port 3025->51487 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:19:06.237
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=51488, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-09-24 10:19:08.740
+!MESSAGE Telnet session connected on port 3330->51500 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2024-09-24 10:28:45.824
+!MESSAGE There is already a running debug session for the launch configuration 'LPC55S69_Project_L3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2024-09-24 10:28:50.619
+!MESSAGE There is already a running debug session for the launch configuration 'LPC55S69_Project_L3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:28:56.202
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:28:56.206
+!MESSAGE RedlinkServer telnet session connected on port 3025->59024 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 -1 2024-09-24 10:28:56.253
+!MESSAGE Connection reset
+
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+	at java.base/sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:137)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:122)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:169)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.receive(RedlinkServerClient.java:1059)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.sendReceive(RedlinkServerClient.java:1160)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.sendReceive(RedlinkServerClient.java:1145)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:231)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.wireConnect(RedlinkServerClient.java:1284)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:241)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:197)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:156)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:454)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:257)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:497)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:165)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:152)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 4 2024-09-24 10:28:56.254
+!MESSAGE Connection reset
+
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+	at java.base/sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:137)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:122)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:169)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.receive(RedlinkServerClient.java:1059)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.sendReceive(RedlinkServerClient.java:1160)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.sendReceive(RedlinkServerClient.java:1145)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:231)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.wireConnect(RedlinkServerClient.java:1284)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:241)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:197)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:156)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:454)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:257)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:497)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:165)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:152)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:137)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:122)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:169)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.receive(RedlinkServerClient.java:1059)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.sendReceive(RedlinkServerClient.java:1160)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.sendReceive(RedlinkServerClient.java:1145)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:231)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.wireConnect(RedlinkServerClient.java:1284)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:241)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:197)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:156)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:454)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:257)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:497)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:165)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:152)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:129)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:28:56.254
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:28:59.433
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:29:00.438
+!MESSAGE RedlinkServer telnet session connected on port 3025->59026 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:29:00.541
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=59027, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-09-24 10:29:03.039
+!MESSAGE Telnet session connected on port 3330->59040 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2024-09-24 10:29:58.398
+!MESSAGE There is already a running debug session for the launch configuration 'LPC55S69_Project_L3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:30:09.836
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-24 10:30:10.843
+!MESSAGE RedlinkServer telnet session connected on port 3025->59042 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-09-24 10:30:12.855
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=59043, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-09-24 10:30:15.581
+!MESSAGE Telnet session connected on port 3330->59056 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:53:56.530
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:53:56.530
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:53:56.530
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-09-24 10:53:56.530
+!MESSAGE Debugging context: LPC55S69_Project_L3 LinkServer Debug
+
+!ENTRY org.eclipse.ui.console 4 120 2024-09-24 11:26:59.091
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:74)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:170)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:180)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.handleStream(ConsoleStreamer.java:506)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:255)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.run(StubServer.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.firePacketReceived(StubServer.java:246)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.dispatcher(StubServer.java:186)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$1.run(StubServer.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.ui.console 4 120 2024-09-24 11:26:59.092
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:74)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:170)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:180)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.handleStream(ConsoleStreamer.java:506)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:255)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.run(StubServer.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.firePacketReceived(StubServer.java:246)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.dispatcher(StubServer.java:186)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$1.run(StubServer.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-09-24 11:27:04.070
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.terminate(GdbLaunch.java:313)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2209)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:712)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2024-09-24 11:27:04.071
+!MESSAGE Terminate failed
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-09-24 11:27:04.098
+!MESSAGE An internal error occurred during: "Execute Debug Command".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: The application has not been initialized.
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.internal.runtime.InternalPlatform.assertInitialized(InternalPlatform.java:183)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getAdapterManager(InternalPlatform.java:204)
+	at org.eclipse.core.runtime.Platform.getAdapterManager(Platform.java:662)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getAdapter(GdbLaunch.java:454)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.disconnect(GdbLaunch.java:338)
+	at org.eclipse.debug.internal.core.commands.DisconnectCommand.execute(DisconnectCommand.java:35)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:36)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:215)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-09-24 11:27:04.458
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2024-09-28 20:19:57.962 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.crt.log 1 0 2024-09-30 13:29:19.089
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-09-30 13:29:19.100
+!MESSAGE RedlinkServer telnet session connected on port 3025->63059 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-30 13:29:36.255
+!MESSAGE Project 'lpcxpresso55s69_hello_world' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lpcxpresso55s69_hello_world)[372]: java.lang.Exception: Project 'lpcxpresso55s69_hello_world' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2024-09-30 13:29:36.256
+!MESSAGE Project 'lpcxpresso55s69_hello_world' is not open.
+!STACK 0
+java.lang.Exception: Project 'lpcxpresso55s69_hello_world' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-30 13:29:36.323
+!MESSAGE Project 'lpcxpresso55s69_hello_world' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lpcxpresso55s69_hello_world)[372]: java.lang.Exception: Project 'lpcxpresso55s69_hello_world' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2024-09-30 13:29:36.323
+!MESSAGE Project 'lpcxpresso55s69_hello_world' is not open.
+!STACK 0
+java.lang.Exception: Project 'lpcxpresso55s69_hello_world' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-09-30 13:29:36.339
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: attempt to set description for a project which does not exist or not open
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setCurrentDescription(XmlProjectDescriptionStorage.java:382)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setLoaddedDescriptionOnLoad(XmlProjectDescriptionStorage.java:360)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:258)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.cdt.core 4 -1 2024-09-30 13:29:36.341
+!MESSAGE attempt to set description for a project which does not exist or not open
+
+!ENTRY com.nxp.swtools.kex.api.internal.HttpHelper 4 0 2024-09-30 14:54:24.953
+!MESSAGE Error connecting to {0} with error code {1}
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-09-30 14:54:25.896
+!MESSAGE An internal error occurred during: "UI refresh".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1278)
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2590)
+	at com.nxp.swtools.common.ui.utils.progress.UIJobHelper.runNowOrInJob(UIJobHelper.java:215)
+	at com.nxp.swtools.validation.engine.internal.ValidationService$DelayedExecutor.cancelPrevJob(ValidationService.java:251)
+	at com.nxp.swtools.validation.engine.internal.ValidationService$DelayedExecutor.runAction(ValidationService.java:226)
+	at com.nxp.swtools.common.utils.runtime.DelayedExecution$1.run(DelayedExecution.java:379)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-10-01 09:03:21.122 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-01 09:06:19.875
+!MESSAGE Indexed 'LPC55S69_Project_L4' (25 sources, 45 headers) in 1.69 sec: 6,939 declarations; 16,655 references; 15 unresolved inclusions; 51 syntax errors; 2,603 unresolved names (9.9%)
+
+!ENTRY com.crt.log 1 0 2024-10-01 09:07:04.393
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-01 09:07:05.401
+!MESSAGE RedlinkServer telnet session connected on port 3025->56067 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-01 09:07:27.029
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=56068, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/LPC55S69_Project_L4/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/Eric/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-10-01 09:07:29.883
+!MESSAGE Telnet session connected on port 3330->56081 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-01 09:31:05.210
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-01 09:31:05.210
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-01 09:31:05.210
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-01 09:31:05.210
+!MESSAGE Debugging context: LPC55S69_Project_L4 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-10-01 09:31:53.472
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@5650345a): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-10-01 09:31:53.472
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-10-01 09:31:54.383
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@75aed035): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2024-10-01 09:31:54.383
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2024-10-01 09:31:55.019
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-01 09:31:56.029
+!MESSAGE RedlinkServer telnet session connected on port 3025->57971 @ 127.0.0.1

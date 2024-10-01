@@ -1,0 +1,4 @@
+C:\Users\Eric\Documents\MCUXpressoIDE_11.10.0_3148\workspace\LPC55S69_Project_L3\CMSIS/core_cm33.h:2587:22:__NVIC_SetPriority	16	static
+../board/peripherals.c:114:13:PINT_init	8	static
+../board/peripherals.c:128:6:BOARD_InitPeripherals_cm33_core0	8	static
+../board/peripherals.c:137:6:BOARD_InitBootPeripherals	8	static
